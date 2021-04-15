@@ -1,0 +1,5 @@
+@mixin mobile-layout {
+  width: $screen-sm-min;
+  max-width: 100%;
+  margin: 0 auto;
+}

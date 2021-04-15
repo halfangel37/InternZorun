@@ -1,0 +1,62 @@
+@import '@/scss/index';
+
+.mx-datepicker {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.mx-input-wrapper {
+  position: relative;
+}
+
+.mx-input {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 47px;
+  padding: 6px 30px;
+  padding-left: 10px;
+  font-size: 16px;
+  line-height: 47px;
+  color: $white;
+  background-color: $gunPowder;
+  border: 1px solid $white;
+  border-radius: 11px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.mx-icon-calendar,
+.mx-icon-clear {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 16px;
+  line-height: 1;
+  color: $white;
+  vertical-align: middle;
+}
+
+.mx-datepicker-main {
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  background-color: $gunPowder;
+  border-radius: 10px;
+}
+
+.mx-calendar {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 6px 12px;
+}
+
+.mx-calendar-time {
+  background-color: $gunPowder;
+  border-radius: 10px;
+}
